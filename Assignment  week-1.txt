@@ -1,0 +1,133 @@
+                                    ASSIGNMENT- WEEK-1
+Q1. Create one variable containing following type of data:
+(i) string      
+(ii) list     
+(iii) float   
+(iv) tuple
+                                    
+ANSWER of Q1                                    
+i)    i = "akbar"
+(ii)  i = [2.3.4.5,"akbar"]
+(iii) i = 56.3
+(iv)  i= (2.3.5)
+***() represent tulip and [] represnt list***
+-------------------------------------------------------------
+Q2. Given are some following variables containing data:
+(i) var1 = ‘ ‘
+(ii) var2 = ‘[ DS , ML , Python]’
+(iii) var3 = [ ‘DS’ , ’ML’ , ‘Python’ ]
+(iv) var4 = 1.
+
+ANSWER of Q2
+(i)	    =String
+(ii)	=string
+(iii)	=list
+(iv)	=int
+---------------------------------------------------------------
+Q3. Explain the use of the following operators using an example:
+(i) /
+(ii) %
+(iii) //
+(iv) **
+
+ANSWER of Q3
+
+(i)	  Divsion operator.eg  4/2=2
+
+(ii)  Modulas operator it will give remender.eg 5%4=1
+
+(iii) Division floor.eg 3//5=0.6
+
+(iv)  Exponent operator.eg 2**2=4
+--------------------------------------------------------------------------------------------------------
+Q4. Create a list of length 10 of your choice containing multiple types of data. Using for loop print the
+   element and its data type.
+
+ANSWER-
+
+i=[2,3,5,"akbar",7+8j,True,55.6]
+for p in i :
+    print((p),type(p))
+    
+the result is 
+2 <class 'int'>
+3 <class 'int'>
+5 <class 'int'>
+akbar <class 'str'>
+(7+8j) <class 'complex'>
+True <class 'bool'>
+55.6 <class 'float'>
+------------------------------------------------------------------------------------------------
+Q6. Create a list containing 25 int type data. Using for loop and if-else condition print if the element is
+divisible by 3 or not.
+
+ANSWER of Q6.
+
+k = [2,3,4,5,6,8,10,12,16,19,25,49,51,55,88,101,88,17,22,21,25,23,5]
+for p in k :
+    if p % 3 == 0 :
+        print((p),"number is divisble by 3")
+    else :
+        print((p),"number is not divisible by 3 ")
+        
+Output is 
+2 number is not divisible by 3 
+3 number is divisble by 3
+4 number is not divisible by 3 
+5 number is not divisible by 3 
+6 number is divisble by 3
+8 number is not divisible by 3 
+10 number is not divisible by 3 
+12 number is divisble by 3
+16 number is not divisible by 3 
+19 number is not divisible by 3 
+25 number is not divisible by 3 
+49 number is not divisible by 3 
+51 number is divisble by 3
+55 number is not divisible by 3 
+88 number is not divisible by 3 
+101 number is not divisible by 3 
+88 number is not divisible by 3 
+17 number is not divisible by 3 
+22 number is not divisible by 3 
+21 number is divisble by 3
+25 number is not divisible by 3 
+23 number is not divisible by 3 
+5 number is not divisible by 3 
+------------------------------------------------------------------------------------------    
+Q7. What do you understand about mutable and immutable data types? Give examples for both showing
+this property.
+
+ANswer of Q7
+String is the collection of data, by Index we can pull data.
+index alway start from 0,1,2,3,(forward index)
+index alway start from -1,-2,-3(backward index)
+there will be a data change on a particular index.
+So data will be change in list but cant change in String
+So STRING is Imutable object and List is Mutable
+
+Eg. for list 
+    s = [3,5,6,7,"akbar",6+7j,30,True]
+    s[5] ="hi"
+    s
+    [3, 5, 6, 7, 'akbar', 'hi', 30, True]
+    
+eg. for string (so its imutable)
+    q= "akbar"
+    q[1] = "p"
+    TypeError                                 
+    Cell In[34], line 1
+    ----> 1 q[1] = "p"
+
+    TypeError: 'str' object does not support item assignment
+--------------------------------------------------------------------------------------------
+Q5. Using a while loop, verify if the number A is purely divisible by number B and if so then how many
+times it can be divisible.
+
+    
+
+
+
+
+
+
